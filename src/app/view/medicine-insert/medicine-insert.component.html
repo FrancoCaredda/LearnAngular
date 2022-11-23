@@ -1,0 +1,21 @@
+<form class="container" (submit)="onSubmit($event)">
+    <div class="caption">
+        <h2>Insert medicine</h2>
+        <hr>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" (change)="onNameChange($event)" placeholder="Enter name">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Type</label>
+        <input type="text" class="form-control" (change)="onTypeChange($event)" placeholder="Enter type">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Price</label>
+        <input type="text" class="form-control" (change)="onPriceChange($event)" placeholder="Enter price">
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </div>
+</form>

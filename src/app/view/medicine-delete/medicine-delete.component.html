@@ -1,0 +1,11 @@
+<form class="container" (submit)="onSubmit($event)">
+    <div class="caption">
+        <h2>Delete medicine</h2>
+        <hr>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Enter name" (change)="setName($event)">
+    </div>
+    <div class="mb-3"><input type="submit" value="Submit" class="btn btn-primary"></div>
+</form>

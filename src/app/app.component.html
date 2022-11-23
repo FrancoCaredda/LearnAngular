@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+      <div class="col">
+        <div class="crud-element">
+          <img src="../assets/read.png" width="28" height="28" alt="read">
+          <a class="nav-link" routerLink="/medicine-get">Medicine list</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="crud-element">
+          <img src="../assets/add.png" width="28" height="28" alt="add">
+          <a class="nav-link" routerLink="/medicine-insert">Add medicine</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="crud-element">
+          <img src="../assets/edit.png" width="28" height="28" alt="update">
+          <a class="nav-link" routerLink="/medicine-update">Update medicine</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="crud-element">
+          <img src="../assets/delete.png" width="28" height="28" alt="delete">
+          <a class="nav-link" routerLink="/medicine-delete">Delete medicine</a>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <router-outlet hidden>
+        <app-medicine-get></app-medicine-get>
+        <app-medicine-delete></app-medicine-delete>
+        <app-medicine-insert></app-medicine-insert>
+        <app-medicine-update></app-medicine-update>
+      </router-outlet>
+    </div>
+  </div>
+</div>

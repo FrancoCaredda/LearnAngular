@@ -1,0 +1,16 @@
+div.col {
+    text-align: center;
+}
+
+div.col a {
+    margin-top: 10px;
+}
+
+div.crud-element {
+    display: flex;
+}
+
+div.crud-element img {
+    margin-top: 14px;
+    margin-left: 71px;
+}
